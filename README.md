@@ -21,6 +21,7 @@ The val_size(defualt=0.3) is radio in whole dataset.
 
 # Result
 learning curve:
+
 ![](imgs/learning_curve.png)
 
 In the testset, achieve 97.425%. (keep improving)
