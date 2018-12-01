@@ -12,7 +12,7 @@ def main():
     parse = argparse.ArgumentParser()
     parse.add_argument('--dataset_path', type=str,
                        default='TL_Dataset/Testset/')
-    parse.add_argument('--img_resize_shape', type=tuple, default=(64, 64))
+    parse.add_argument('--img_resize_shape', type=tuple, default=(32, 32))
     parse.add_argument('--num_workers', type=int, default=4)
     parse.add_argument('--save_path', type=str, default='logs/')
 

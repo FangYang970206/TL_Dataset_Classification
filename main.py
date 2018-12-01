@@ -16,11 +16,11 @@ def main():
     parse.add_argument('--remove_names', type=list, default=['README.txt',
                                                              'README.png',
                                                              'Testset'])
-    parse.add_argument('--img_resize_shape', type=tuple, default=(64, 64))
-    parse.add_argument('--batch_size', type=int, default=32)
+    parse.add_argument('--img_resize_shape', type=tuple, default=(32, 32))
+    parse.add_argument('--batch_size', type=int, default=1024)
     parse.add_argument('--lr', type=float, default=0.001)
     parse.add_argument('--num_workers', type=int, default=4)
-    parse.add_argument('--epochs', type=int, default=100)
+    parse.add_argument('--epochs', type=int, default=200)
     parse.add_argument('--val_size', type=float, default=0.3)
     parse.add_argument('--save_model', type=bool, default=True)
     parse.add_argument('--save_path', type=str, default='logs/')

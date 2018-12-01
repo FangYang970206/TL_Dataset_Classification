@@ -13,7 +13,7 @@ class_light = {
                 'Red Right': 6,
                 'Green Right': 7,
                 'Red Negative': 8,
-                'Green Negative': 9
+                'Green Negative': 8
 }
 
 
