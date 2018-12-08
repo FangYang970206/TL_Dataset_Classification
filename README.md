@@ -1,6 +1,11 @@
 # TL_Dataset_Classification
 This repo implements an end-to-end classifier in Traffic Light Dataset based on pytorch. 
-
+# Requirements
+* [pytorch](https://pytorch.org/)：0.4.0
+* [torchsummary](https://github.com/sksq96/pytorch-summary)：`pip install torchsummary`
+* cv2: `pip install opencv-python`
+* matplotlib
+* numpy
 # How To Run
 **First**, you should clone this repo:
 ```bash
